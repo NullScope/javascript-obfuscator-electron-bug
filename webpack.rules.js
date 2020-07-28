@@ -66,7 +66,7 @@ module.exports = [
           sourceMapMode: 'separate',
           splitStrings: true,
           splitStringsChunkLength: 10,
-          stringArray: false,
+          stringArray: true,
           stringArrayEncoding: 'rc4',
           stringArrayThreshold: 1,
           target: 'node',
